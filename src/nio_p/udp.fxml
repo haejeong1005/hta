@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" 
+xmlns:fx="http://javafx.com/fxml/1" 
+xmlns="http://javafx.com/javafx/8"
+fx:controller="nio_p.UDP_test">
+   <children>
+      <Label fx:id="ipname" alignment="CENTER" layoutX="14.0" layoutY="42.0" prefHeight="40.0" prefWidth="123.0" text="IP">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="portname" alignment="CENTER" layoutX="14.0" layoutY="102.0" prefHeight="40.0" prefWidth="123.0" text="Port">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ip" layoutX="131.0" layoutY="51.0" prefHeight="40.0" prefWidth="237.0" />
+      <TextField fx:id="port" layoutX="131.0" layoutY="103.0" prefHeight="40.0" prefWidth="237.0" />
+      <Button fx:id="btn" layoutX="157.0" layoutY="169.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="97.0" text="가보자" />
+      <TextField fx:id="ip1" alignment="CENTER" layoutX="82.0" layoutY="250.0" prefHeight="71.0" prefWidth="237.0" promptText="아직 안갔다" text="아직 안갔다" />
+      <TextField fx:id="msg" alignment="CENTER" layoutX="92.0" layoutY="260.0" prefHeight="71.0" prefWidth="237.0" promptText="아직 안갔다" text="아직 안갔다" />
+   </children>
+</AnchorPane>

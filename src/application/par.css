@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+Button#lb1{
+	-fx-font-family:Serif;
+	-fx-font-size:24pt;
+}

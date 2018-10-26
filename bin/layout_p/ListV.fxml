@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.collections.FXCollections?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layout_p.ListViewController">
+   <center>
+      <ListView fx:id="list" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      	<items>
+      		<FXCollections fx:factory="observableArrayList">
+      			<String fx:value="짜장" />
+      			<String fx:value="짬뽕" />
+      			<String fx:value="탕슉" />
+      			<String fx:value="볶음밥" />
+      			<String fx:value="깐풍기" />
+      		</FXCollections>
+      	</items>
+      </ListView>
+   </center>
+   <bottom>
+      <Button fx:id="btn" mnemonicParsing="false" text="DELETE" BorderPane.alignment="CENTER" />
+   </bottom>
+   <top>
+      <Label fx:id="label" text="Label" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <ListView fx:id="price" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      	<items>
+      		<FXCollections fx:factory="observableArrayList">
+      			<String fx:value="2000" />
+      			<String fx:value="3000" />
+      			<String fx:value="4000" />
+      			<String fx:value="5000" />
+      			<String fx:value="6000" />
+      		</FXCollections>
+      	</items>
+      </ListView>
+   </left>
+</BorderPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language javascript?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+ xmlns="http://javafx.com/javafx/8"
+ fx:controller="application.EventMain"
+ >
+ <!-- fx:controller="application.EventMain" 이걸로 알려주어야 main에서 구현할 수 있게 해준다. -->
+ 
+ 
+	<!--<fx:script>
+	 택스트필드에 글을 입력하고 버튼을 누르면 라벨도 바뀐다.
+		 tf1.setText(''); 이거대신 tf1.clear()도 가능버튼을 누르면 textfield값이 사라지게 해준다.
+	     tf1.requestFocus(); 커서가 자동적으로 다시 생성되게
+
+		function btnClk(){ 
+			var str = tf1.getText();
+			label1.setText('입력글자: '+str);
+			tf1.setText('');
+			tf1.requestFocus(); 
+		}
+	</fx:script>	 -->
+
+
+   <top>
+      <Label fx:id='label1' prefHeight="15.0" prefWidth="148.0" text="Label" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+   						<!-- onAction: 엔터키 -->
+      <TextField fx:id='tf1'  BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+    	 <!-- onAction: 버튼클릭-->
+      <Button fx:id='btn' text="Button" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

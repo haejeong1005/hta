@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="totalP" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thread_p.BrokeBallController">
+   <children>
+      <Pane fx:id="bb" minWidth="0.0" prefHeight="128.0" prefWidth="400.0">
+         <children>
+            <Button fx:id="b1" layoutX="1.0" layoutY="1.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #0099cc;" text="b1" textFill="WHITE" />
+            <Button fx:id="b2" layoutX="81.0" layoutY="1.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #00cc99;" text="b2" textFill="#eeeaea" />
+            <Button fx:id="b6" layoutX="1.0" layoutY="43.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #FF3333;" text="b6" textFill="WHITE" />
+            <Button fx:id="b11" layoutX="1.0" layoutY="85.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #FFFF00;" text="b11" textFill="WHITE" />
+            <Button fx:id="b3" layoutX="161.0" layoutY="1.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #FFFF00;" text="b3" textFill="WHITE" />
+            <Button fx:id="b8" layoutX="161.0" layoutY="43.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #0099cc;" text="b8" textFill="WHITE" />
+            <Button fx:id="b14" layoutX="241.0" layoutY="85.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #0099cc;" text="b14" textFill="WHITE" />
+            <Button fx:id="b9" layoutX="241.0" layoutY="43.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #00cc99;" text="b9" textFill="WHITE" />
+            <Button fx:id="b15" layoutX="321.0" layoutY="85.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #FFFF00;" text="b15" textFill="WHITE" />
+            <Button fx:id="b10" layoutX="321.0" layoutY="43.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #0099cc;" text="b10" textFill="WHITE" />
+            <Button fx:id="b5" layoutX="321.0" layoutY="1.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #00cc99;" text="b5" textFill="WHITE" />
+            <Button fx:id="b4" layoutX="241.0" layoutY="1.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #FF3333;" text="b4" textFill="WHITE" />
+            <Button fx:id="b13" layoutX="161.0" layoutY="85.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #FF3333;" text="b13" textFill="WHITE" />
+            <Button fx:id="b7" layoutX="81.0" layoutY="43.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #FFFF00;" text="b7" textFill="WHITE" />
+            <Button fx:id="b12" layoutX="81.0" layoutY="85.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #FF3333;" text="b12" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Pane fx:id="ba" layoutX="125.0" layoutY="458.0" maxHeight="150.0" prefHeight="20.0" prefWidth="150.0">
+         <children>
+            <Rectangle fx:id="bar" arcHeight="5.0" arcWidth="5.0" fill="#682917" height="20.0" stroke="WHITE" strokeType="OUTSIDE" width="150.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="pp" layoutX="183.0" layoutY="136.0" maxHeight="600.0" maxWidth="400.0" prefHeight="40.0" prefWidth="34.0">
+         <children>
+            <Circle fx:id="ball" centerX="209.0" centerY="209.0" fill="WHITE" layoutX="-195.0" layoutY="-189.0" radius="10.0" stroke="#ff1e28" strokeType="INSIDE" />
+         </children></Pane>
+   </children>
+</AnchorPane>

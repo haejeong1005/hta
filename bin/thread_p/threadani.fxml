@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<!-- focusTraversable="true" node가 focus를 인지하지 않고 관통시키는 것
+                             keyEvent의 주체가 되지 않도록 설정
+-->
+
+<AnchorPane fx:id="totalP" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"  
+fx:controller="thread_p.ThreadAniController">
+   <children>
+      <Pane focusTraversable="true" fx:id="pp" layoutX="60.0" layoutY="150.0" prefHeight="50.0" prefWidth="50.0">
+         <children>
+            <Arc focusTraversable="true" fx:id="pArc" fill="DODGERBLUE" layoutX="25.0" layoutY="25.0" length="270.0" radiusX="25.0" radiusY="25.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+         </children>
+      </Pane>
+      <Pane focusTraversable="true" fx:id="user" layoutX="236.0" layoutY="253.0" prefHeight="30.0" prefWidth="30.0">
+         <children>
+            <Circle  focusTraversable="true" centerX="15.0" centerY="15.0" fill="#1fff2f" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="ServerPage" layoutX="5.0" layoutY="14.0" prefHeight="152.0" prefWidth="232.0" 
+xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net_p.Client_test">
+   <children>
+      <TextField fx:id="msg" layoutX="37.0" layoutY="95.0" prefHeight="52.0" prefWidth="153.0" text="연결 대기중" />
+      <Button fx:id="btn" layoutX="190.0" layoutY="65.0" mnemonicParsing="false" text="Go" />
+      <Label fx:id="ip" alignment="CENTER" layoutX="7.0" layoutY="4.0" prefHeight="23.0" prefWidth="60.0" text="IP" />
+      <Label fx:id="port" alignment="CENTER" layoutX="7.0" layoutY="37.0" prefHeight="23.0" prefWidth="60.0" text="Port" />
+      <TextField fx:id="ipr" layoutX="72.0" layoutY="3.0" prefHeight="23.0" prefWidth="135.0" />
+      <TextField fx:id="por" layoutX="73.0" layoutY="37.0" prefHeight="23.0" prefWidth="135.0"  />
+   </children>
+	<!-- TODO Add Nodes -->
+</AnchorPane>

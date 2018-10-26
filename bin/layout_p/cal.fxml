@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="308.0" prefWidth="243.0" style="-fx-background-color: #DDE7F3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layout_p.HwCal">
+   <children>
+      <VBox layoutX="-1.0" layoutY="44.0" prefHeight="199.0" prefWidth="245.0">
+         <children>
+            <HBox prefHeight="60.0" prefWidth="245.0">
+               <children>
+                  <TextField fx:id="res" alignment="BOTTOM_RIGHT" editable="false" prefHeight="52.0" prefWidth="217.0" text="0">
+                     <font>
+                        <Font name="Consolas" size="25.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="8.0" left="15.0" right="7.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="33.0" prefWidth="245.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="MC">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="MR">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="MS">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="M+">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="M-">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" left="13.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="33.0" prefWidth="245.0">
+               <children>
+                  <Button fx:id="back" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="←">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="CE">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="init" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="C">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="±">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="√">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" left="13.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="33.0" prefWidth="245.0">
+               <children>
+                  <Button fx:id="seven" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="7">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="eight" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="8">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="nine" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="9">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="div" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="/">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="\%">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" left="13.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="33.0" prefWidth="245.0">
+               <children>
+                  <Button fx:id="four" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="4">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="five" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="5">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="six" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="6">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="mul" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="*">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="1/x">
+                     <font>
+                        <Font name="Consolas" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" left="13.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox layoutX="-1.0" layoutY="236.0" prefHeight="33.0" prefWidth="196.0">
+         <children>
+            <Button fx:id="one" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="1">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="two" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="2">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="three" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="3">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="sub" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="-">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="2.0" left="13.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="91.0" layoutY="269.0" prefHeight="33.0" prefWidth="105.0">
+         <children>
+            <Button fx:id="jum" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text=".">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="add" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" text="+">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="2.0" left="13.0" />
+         </padding>
+      </HBox>
+      <Button fx:id="zero" layoutX="13.0" layoutY="269.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="81.0" text="0" />
+      <Button fx:id="equal" layoutX="196.0" layoutY="237.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="36.0" text="=" />
+   </children>
+</AnchorPane>

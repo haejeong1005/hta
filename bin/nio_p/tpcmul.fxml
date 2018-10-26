@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane layoutX="5.0" layoutY="14.0" prefHeight="232.0" prefWidth="200.0"
+ xmlns:fx="http://javafx.com/fxml/1" 
+ xmlns="http://javafx.com/javafx/8"
+ fx:controller="nio_p.TCPMulController">
+   <children>
+      <TextField fx:id="msg" layoutX="19.0" layoutY="125.0" prefHeight="52.0" prefWidth="153.0" text="연결 대기중" />
+      <Button layoutX="139.0" layoutY="93.0" mnemonicParsing="false" text="Go" />
+      <Label fx:id="ip" alignment="CENTER" layoutX="-4.0" layoutY="4.0" prefHeight="23.0" prefWidth="60.0" text="IP" />
+      <Label fx:id="port" alignment="CENTER" contentDisplay="CENTER" layoutX="-4.0" layoutY="49.0" prefHeight="23.0" prefWidth="60.0" text="port" />
+      <TextField fx:id="ipr" layoutX="41.0" layoutY="4.0" prefHeight="23.0" prefWidth="135.0" />
+      <TextField fx:id="por" layoutX="41.0" layoutY="49.0" prefHeight="23.0" prefWidth="135.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="151.0" prefWidth="214.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thread_p.TaskController">
+   <children>
+      <Button fx:id="suspend" layoutX="20.0" layoutY="53.0" mnemonicParsing="false" text="||" />
+      <Button fx:id="restart" layoutX="116.0" layoutY="53.0" mnemonicParsing="false" text="■" />
+      <Label fx:id="label" alignment="CENTER" contentDisplay="TOP" layoutX="60.0" layoutY="102.0" prefHeight="15.0" prefWidth="71.0" text="0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

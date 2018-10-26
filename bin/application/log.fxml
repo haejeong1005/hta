@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.loginTest">
+   <children>
+      <TextField fx:id="welecome" alignment="CENTER" promptText="WELECOME" />
+      <TextField fx:id="get_id" />
+      <TextField fx:id="get_pw" />
+      <TextField fx:id="get_name" />
+      <TextField fx:id="get_birth" />
+      <TextField fx:id="get_gender" />
+      <TextField fx:id="get_message" />
+      <TextField fx:id="get_post" />
+      <TextField fx:id="get_phone" />
+      <TextField fx:id="get_email" />
+      <TextField fx:id="get_get" />
+   </children>
+</VBox>

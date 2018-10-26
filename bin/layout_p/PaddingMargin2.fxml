@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="btn1" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button">
+         <HBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </HBox.margin>
+      </Button>
+      <Button fx:id="btn2" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="200.0" right="10.0" top="50.0" />
+   </padding>
+</HBox>
