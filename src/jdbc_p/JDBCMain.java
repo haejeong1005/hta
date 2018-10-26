@@ -29,7 +29,7 @@ public class JDBCMain {
 				Date reg_date = rs.getDate("REG_DATE");
 				int grade = rs.getInt("grade");
 				
-				System.out.println(id+","+reg_date+","+grade);
+				System.out.println(id+","+reg_date+","+grade+">>>>>>>");
 				
 			}
 			
